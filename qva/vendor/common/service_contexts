@@ -84,4 +84,5 @@ vendor.qti.hardware.wifidisplaysession_aidl.IWifiDisplaySessionAudioTrack/defaul
 vendor.qti.hardware.wifidisplaysession_aidl.IWifiDisplaySessionImageTrack/default     u:object_r:hal_wifidisplayimage_service:s0
 vendor.qti.qhcp.IQHDC/default                          u:object_r:vendor_hal_qms_service:s0
 vendor.qti.hardware.qspa.IQspa/default                u:object_r:vendor_hal_qspa_service:s0
+vendor.qti.qspmhal.IQspmhal/default                           u:object_r:vendor_hal_qspmhal_service:s0
 
