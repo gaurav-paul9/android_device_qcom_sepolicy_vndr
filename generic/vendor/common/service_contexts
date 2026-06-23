@@ -54,3 +54,5 @@ vendor.qti.ims.factoryaidlservice.IImsFactory/default                 u:object_r
 vendor.qti.data.factoryservice.IFactory/default                       u:object_r:vendor_hal_factory_aidlservice:s0
 vendor.qti.hardware.perf2.IPerf/default                               u:object_r:vendor_hal_perf2_service:s0
 vendor.qti.hardware.dpmaidlservice.IDpmService/default                u:object_r:vendor_hal_dpmaidl_service:s0
+vendor.qti.hardware.camera.offlinecamera.IOfflineCameraService/default u:object_r:vendor_hal_offlinecamera_service:s0
+vendor.qti.hardware.camera.aon.IAONService/default                    u:object_r:vendor_hal_camera_aon_service:s0

@@ -88,6 +88,9 @@
 /dev/jpeg[0-9]*                                 u:object_r:video_device:s0
 /dev/adsprpc-smd                                u:object_r:vendor_qdsp_device:s0
 /dev/adsprpc-smd-secure                         u:object_r:vendor_xdsp_device:s0
+/dev/fastrpc-adsp-secure                        u:object_r:vendor_xdsp_device:s0
+/dev/fastrpc-cdsp-secure                        u:object_r:vendor_xdsp_device:s0
+/dev/fastrpc-sdsp-secure                        u:object_r:vendor_xdsp_device:s0
 /dev/sdsprpc-smd                                u:object_r:vendor_dsp_device:s0
 /dev/msm_audio_ion                              u:object_r:vendor_agm_device:s0
 /dev/aud_pasthru_adsp                           u:object_r:vendor_agm_device:s0
@@ -100,6 +103,7 @@
 /dev/hbtp_input                                 u:object_r:vendor_hbtp_device:s0
 /dev/hbtp_vm                                    u:object_r:vendor_hbtp_device:s0
 /dev/sg[0-9]+                                   u:object_r:vendor_sg_device:s0
+/dev/ubwcp                                      u:object_r:vendor_ubwcp_device:s0
 /dev/ufs-bsg.*                                   u:object_r:vendor_bsg_device:s0
 /dev/0:0:0:49476                                u:object_r:vendor_bsg_device:s0
 /dev/0:0:0:[0-9]                                u:object_r:vendor_ufs_lun4_bsg_device:s0
