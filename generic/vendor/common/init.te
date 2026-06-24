@@ -88,3 +88,5 @@ allow init vendor_sysfs_graphics:file w_file_perms;
 allow init vendor_sysfs_graphics:dir search;
 allow init vendor_sysfs_usb_device:file w_file_perms;
 ')
+
+allow init { vendor_sys_sp_comp vendor_sys_nonsp_comp }:file r_file_perms;

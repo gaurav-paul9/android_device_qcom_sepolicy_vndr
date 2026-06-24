@@ -207,3 +207,25 @@ genfscon sysfs /devices/platform/soc/soc:qcom,pmic_glink/soc:qcom,pmic_glink:qco
 
 # UFS
 genfscon sysfs /devices/platform/soc/1d84000.ufshc/host0/target0:0:0/0:0:0:0/block/sda/queue/discard_max_bytes u:object_r:vendor_sysfs_mmc_host:s0
+
+# vendor_sys_nonsp_comp
+genfscon sysfs /devices/soc0/audio u:object_r:vendor_sys_nonsp_comp:s0
+genfscon sysfs /devices/soc0/comp1 u:object_r:vendor_sys_nonsp_comp:s0
+genfscon sysfs /devices/soc0/video  u:object_r:vendor_sys_nonsp_comp:s0
+genfscon sysfs /devices/soc0/camera u:object_r:vendor_sys_nonsp_comp:s0
+genfscon sysfs /devices/soc0/display u:object_r:vendor_sys_nonsp_comp:s0
+genfscon sysfs /devices/soc0/modem u:object_r:vendor_sys_nonsp_comp:s0
+genfscon sysfs /devices/soc0/sensors u:object_r:vendor_sys_nonsp_comp:s0
+genfscon sysfs /devices/soc0/wlan u:object_r:vendor_sys_nonsp_comp:s0
+genfscon sysfs /devices/soc0/comp u:object_r:vendor_sys_nonsp_comp:s0
+genfscon sysfs /devices/soc0/display1 u:object_r:vendor_sys_nonsp_comp:s0
+genfscon sysfs /devices/soc0/nav u:object_r:vendor_sys_nonsp_comp:s0
+genfscon sysfs /devices/soc0/spss u:object_r:vendor_sys_nonsp_comp:s0
+genfscon sysfs /devices/soc0/nsp u:object_r:vendor_sys_nonsp_comp:s0
+genfscon sysfs /devices/soc0/eva u:object_r:vendor_sys_nonsp_comp:s0
+genfscon sysfs /devices/soc0/subset_parts u:object_r:vendor_sys_nonsp_comp:s0
+genfscon sysfs /devices/soc0/subset_cores u:object_r:vendor_sys_nonsp_comp:s0
+
+# vendor_sys_sp_comp
+genfscon sysfs /devices/soc0/gpu u:object_r:vendor_sys_sp_comp:s0
+genfscon sysfs /devices/soc0/npu u:object_r:vendor_sys_sp_comp:s0
